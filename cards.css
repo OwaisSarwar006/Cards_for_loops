@@ -1,0 +1,20 @@
+#row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card img{
+    transition:tranform 0.1s ease ;
+    will-change: tranform;
+}
+.card img:hover{
+    transform: translate(-1px);
+    cursor: pointer;
+}
+.card img {
+    height: 250px;
+}
+.nav-item .nav-link:hover {
+    border-bottom: 2px solid purple;
+}
